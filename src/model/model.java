@@ -9,7 +9,8 @@ import java.sql.*;
 public class model {
 
 	private Connection connection;
-	
+
+	// Constructor
 	public model(){
 	connection=util.getConnection();
 	System.out.println("connection got finished");
